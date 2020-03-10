@@ -1,0 +1,745 @@
+/* start constants */
+*{
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+
+/* color: rgb(143, 140, 140); */
+
+@font-face{
+    font-family: futura-pt;
+    src: url(/fonts/FuturaPTBook.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-cond-medium;
+    src: url(/fonts/FuturaPTCondMedium.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-demi;
+    src: url(/fonts/FuturaPTDemi.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-bold;
+    src: url(/fonts/FuturaPTCondBold.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-cond-book;
+    src: url(/fonts/FuturaPTCondBook.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-cond-bold;
+    src: url(/fonts/FuturaPTCondBold.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-extra-bold;
+    src: url(/fonts/FuturaPTExtraBold.otf);
+    font-weight: bolder;
+}
+@font-face{
+    font-family: futura-pt-light;
+    src: url(/fonts/FuturaPTLight.otf);
+    font-weight: 400;
+}
+/* End constants */
+
+/* Start header styles */
+.header{
+    background-color: black!important;
+    padding: 1% 8% .5% 3.5%;
+    height: 85px;
+}
+.header-logo{
+    text-align: center;
+    width: 145px;
+    height: 5%;
+}
+.navbar-logo-img{
+    width: 128px;
+    height: 47px;
+}
+.page{
+    /* margin-right: 10px; */
+}
+.nav-link{
+    font-family: futura-pt-light;
+    font-size: 14px;
+    color: #F7F7F7;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: #F7F7F7;
+}
+.navbar ul:hover > li { 
+    opacity: 0.5;
+  }
+  
+.navbar ul li:hover {
+    opacity: 1;
+  }
+/* End header styles */
+
+/* Start cover styles */
+.cover{
+    padding: 55px 71px;
+    background-color: rgb(237, 237, 242);
+}
+.cover-story{
+    margin-right: 45px;
+}
+.cover-h3{
+    font-family: futura-pt-demi;
+    text-transform: uppercase;
+    color: #513F8D;
+    font-size: 17px;
+    margin-bottom: 35px;
+    letter-spacing: 4px;
+    padding-left: 0;
+}
+.cover-story-image{
+    width: 100%;
+    height: 689px;
+    margin-bottom: 15px;
+}
+.date{
+    font-family: futura-pt-light;
+    color: #454545;
+    margin-bottom: 10px;
+    font-size: 13px;
+    opacity: .7;
+    letter-spacing: 2px;
+}
+.cover-story-heading{
+    margin-bottom: 10px;
+}
+.cover-story-heading-link{
+    font-family: futura-pt-demi;
+    font-weight: bold;
+    cursor: pointer;
+    color: #454545;
+    font-size: 40px;
+}
+.cover-story-heading-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.cover-story-paragraph{
+    font-family: futura-pt-light;
+    color: #454545;
+    opacity: .9;
+    letter-spacing: 1px;
+    font-size: 18px;
+
+}
+.read-more{
+    font-family: futura-pt;
+    color: #513ea8;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.read-more:hover{
+    text-decoration: none;
+    color: #513ea8;
+}
+.cover-story{
+    flex: 3;
+}
+.latest{
+    flex: 2;
+}
+.links{
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.link1-1{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px;
+    color: #513f8d; 
+    text-align: left;
+    font-family: futura-pt;
+}
+.link2{
+    font-size: 20px;
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt-light;
+}
+.link1-1:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.link2:hover{
+    text-decoration: none;
+    color: #513f8d;
+    opacity: .5;
+}
+.collection1, .collection2, .collection3, .collection4{
+    padding-top: 17px;
+}
+.article1{
+    margin-right: 33px;
+}
+.article-image{
+    width: 100%;
+    height: 120px;
+}
+.label{
+    opacity: .7;
+}
+.article-label{
+    font-family: futura-pt-light;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.article-label:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.heading{
+    margin-top: 15px;
+}
+.heading-link{
+    font-family: futura-pt;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.heading-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.collection1 div, .collection2 div, .collection3 div{
+    flex: 1;
+}  or 
+/* =====================This is a new call idea in css ===========================
+[class*=collection] div{
+    flex: 1;
+}
+   ================================================================================*/
+.line1{
+    margin-top: 105px;
+    margin-bottom: 17px;
+}
+.line2{
+    margin-top: 118px;
+    margin-bottom: 17px;
+}
+/* End cover styles */
+
+/* Start search input styles */
+.input{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 55px;
+    background-color: rgb(237, 237, 242);
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+    height: 52px;
+    opacity: .5;
+}
+.has-search .form-control:hover{
+    opacity: 1;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    padding-top: 8px;
+}
+/* End search input styles */
+
+/* Start AI styles */
+.AI{
+    padding: 55px 71px;
+    background-color: rgb(237, 237, 242);
+    padding-bottom: 30px;
+}
+.AI .links{
+    padding-bottom: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.link1-1{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px;
+    color: #513f8d; 
+    text-align: left;
+    font-family: futura-pt;
+}
+.link2{
+    font-size: 20px;
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt-light;
+}
+.link1-1:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.link2:hover{
+    text-decoration: none;
+    color: #513f8d;
+    opacity: .5;
+}
+ .chapters{
+    flex: 1;
+    margin-right: 50px;
+}
+.artificial-intelligence{
+    flex: 4;
+} 
+.article{
+    margin-right: 30px;
+}
+.collection1:nth-child(2), .collection2:nth-child(2){
+    margin-right: 0px!important;
+}
+.line3, .line4{
+    margin-bottom: 35px;
+}
+.media{
+    margin-bottom: 35px;
+    display: flex;
+    flex: 1;
+}
+.chapters-paragraph{
+    font-family: futura-pt-light;
+    color: #454545;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 35px;
+    opacity: .7;
+}
+.chapters-paragraph em{
+    font-family: futura-pt-light;
+    color: #513F8D;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+    border-bottom: .5px solid #513f8d;
+}
+.chapter-image{
+    width: 55px;
+    height: 50px;
+    margin-right: 20px;
+}
+.chapter-title{
+    margin-bottom: 2px;
+}
+.chapter-title-link{
+    font-family: futura-pt;
+    color: #454545;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.chapter-title-link:hover{
+    color: #454545;
+    text-decoration: none;
+}
+.chapter-label-link{
+    font-family: futura-pt-light;
+    color: #aaa;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.chapter-label-link:hover{
+    color: #aaa;
+    text-decoration: none;
+}
+.artificial-intelligence .links .link1-1, .data .links .link1-1{
+    font-size: 29px;
+}
+.article-image{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 20px;
+}
+.article-title{
+    margin-bottom: 10px;
+}
+.article-title-link{
+    font-family: futura-pt;
+    font-weight: bold;
+    color: #454545;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.article-title-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.article-paragraph{
+    font-family: futura-pt-light;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.read-more{
+    font-family: futura-pt;
+    color: #513ea8;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.read-more:hover{
+    color: #513ea8;
+    text-decoration: none;
+    cursor: pointer;
+}
+.article-label-link{
+    font-family: futura-pt-light;
+    color: rgb(143, 140, 140);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.article-label-link:hover{
+    color: rgb(143, 140, 140);
+    text-decoration: none;
+}
+.line6 hr{
+    margin-top: 78px;
+    margin-bottom: 40px;
+}
+.line5 hr{
+    margin-top: 57px;
+    margin-bottom: 40px;
+}
+/* End AI styles */
+
+/* Start data styles */
+.data{
+    background-color: rgb(237, 237, 242); 
+    padding: 55px 71px;
+    padding-top: 0px;
+}
+.data-articles{
+    flex: 4;
+    margin-right: 40px;
+}
+.data .chapters{
+    flex: 1;
+}
+.link1-2{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px;
+    color: #513f8d; 
+    text-align: left;
+    font-family: futura-pt;
+}
+.link2{
+    font-size: 20px;
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt-light;
+}
+.link1-2:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+/* End data styles */
+
+/* Start government experience styles */
+.government-experience{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 71px;
+    background-color: rgb(237, 237, 242);
+}
+.government-lines-up{
+    padding: 55px 71px;
+    background-color: rgb(237, 237, 242);
+    padding-bottom: 0px;
+}
+.gov1{
+    flex: 1;
+    padding-right: 35px;
+}
+.gov2{
+    display: flex;
+    flex: 4;
+}
+.gov1-h3{
+    font-family: futura-pt-demi;
+    color: #513F8D;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.gov1-paragraph{
+    font-family: futura-pt-light;
+    color: #454545;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    opacity: .6;
+}
+.gov1-paragraph a{
+    color: #3D2F7F;
+    padding-bottom: 1px;
+    border-bottom: .5px solid #3D2F7F;
+}
+.gov1-paragraph a:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.gov2-article{
+    margin-right: 30px;
+}
+.gov2-article:nth-child(4){
+    margin-right: 0px;
+}
+.gov2-image{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.gov2-label{
+    margin-bottom: 2px;
+}
+.gov2-label-link{
+    font-family: futura-pt-light;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 13px;
+    opacity: .6;
+}
+.gov2-label-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.gov2-heading-link{
+    font-family: futura-pt;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.gov2-heading-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+/* End government experience styles */
+
+/* Start industry styles */
+.industry-lines-up{
+    background-color: rgb(237, 237, 242);
+    padding: 55px 71px;
+    padding-bottom: 0px; 
+}
+.article:nth-child(3){
+    margin-right: 0px;
+}
+.industry-lines-down{
+    background-color: rgb(237, 237, 242);
+    padding: 0px 71px;
+}
+/* End industry lines styles */
+
+/* Start blockchain styles */
+.blockchain{
+    background-color: rgb(237, 237, 242);
+    padding: 0px 71px;
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+.backstory{
+    flex: 1;
+    margin-right: 40px;
+}
+.sub-blockchain{
+    flex: 2;
+}
+.backstory-h3{
+    font-family: futura-pt-demi;
+    color: #513F8D;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.backstory-paragraph em{
+    font-family: futura-pt-light;
+    color: #454545;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    opacity: .6;
+}
+.backstory-link{
+    font-size: 20px;
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt-light;
+}
+.backstory-link:hover{
+    text-decoration: none;
+    color: #513f8d;
+    opacity: .5;
+}
+.backstory-image{
+    width: 100px;
+    height: 95px;
+    margin-right: 30px;
+}
+.backstory-title{
+    margin-bottom: 20px;
+}
+.backstory-title-link{
+    font-family: futura-pt;
+    color: #454545;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.backstory-title-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.media-body-paragraph{
+    font-family: futura-pt-light;
+    color: #454545;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 90px;
+}
+.media-body-label-link{
+    font-family: futura-pt;
+    color: #454545;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    opacity: .6;
+}
+.media-body-label-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.blockchain-image{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 30px;
+}
+.blockchain-title{
+    margin-bottom: 10px;
+}
+.blockchain-title-link{
+    font-family: futura-pt;
+    color: #454545;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    
+}
+.blockchain-title-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.blockchain-paragraph{
+    font-family: futura-pt-light;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.date{
+    font-family: futura-pt;
+    color: #454545;
+    font-size: 13px;
+    letter-spacing: 1px;
+    opacity: .6;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.links{
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.blockchain-link1{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 29px; 
+    font-weight: 700; 
+    letter-spacing: 7px;
+    color: #513f8d; 
+    text-align: left;
+    font-family: futura-pt;
+}
+.blockchain-link2{
+    font-size: 20px;
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt-light;
+}
+.blockchain-link1:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.blockchain-link2:hover{
+    text-decoration: none;
+    color: #513f8d;
+    opacity: .5;
+}
+
+/* End blockchain styles */
+
+/* Start footer styles */
+.footer{
+    background-color: #513f8d;
+    padding: 24px 71px;
+}
+.footer1, .footer2{
+    padding: 17px;
+}
+.left-side, .copyrights{
+    font-family: futura-pt-light;
+    color: #D1D1D1;
+    font-size: 20px;
+    letter-spacing: 2px; 
+}
+/* End footer styles */
+
+/* lines */
+.line1{
+    margin-top: 70px;
+}
+.line6{
+    margin-top: -1px;
+}

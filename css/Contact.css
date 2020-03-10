@@ -1,0 +1,221 @@
+/* start constants */
+*{
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+
+/* color: rgb(143, 140, 140); */
+
+@font-face{
+    font-family: futura-pt;
+    src: url(/fonts/FuturaPTBook.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-cond-medium;
+    src: url(/fonts/FuturaPTCondMedium.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-demi;
+    src: url(/fonts/FuturaPTDemi.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-bold;
+    src: url(/fonts/FuturaPTCondBold.otf);
+    font-weight: 900;
+}
+@font-face{
+    font-family: futura-pt-cond-book;
+    src: url(/fonts/FuturaPTCondBook.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-cond-bold;
+    src: url(/fonts/FuturaPTCondBold.otf);
+    font-weight: 900;
+}
+@font-face{
+    font-family: futura-pt-extra-bold;
+    src: url(/fonts/FuturaPTExtraBold.otf);
+    font-weight: bolder;
+}
+@font-face{
+    font-family: futura-pt-light;
+    src: url(/fonts/FuturaPTLight.otf);
+    font-weight: 400;
+}
+/* End constants */
+
+/* Start header styles */
+.header{
+    background-color: black!important;
+    padding: 1% 8% .5% 3.5%;
+    height: 85px;
+}
+.header-logo{
+    text-align: center;
+    width: 145px;
+    height: 5%;
+}
+.navbar-logo-img{
+    width: 128px;
+    height: 47px;
+}
+.page{
+    /* margin-right: 10px; */
+}
+.nav-link{
+    font-family: futura-pt-light;
+    font-size: 14px;
+    color: #F7F7F7;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: #F7F7F7;
+}
+.navbar ul:hover > li { 
+    opacity: 0.5;
+}
+  
+.navbar ul li:hover {
+    opacity: 1;
+}
+/* End header styles */
+
+/* Start main styles */
+.main{
+    background-color: rgb(237, 237, 242);
+    padding-top: 72px;
+}
+
+.contacts-registeration{
+    flex: 5;
+}
+
+.contact-info{
+    flex: 1;
+}
+.main-form{
+    flex: 4;
+}
+.get-in-touch h1{
+    font-family: futura-pt-extra-bold;
+    color: #333333;
+    letter-spacing: 1px;
+    font-size: 56px;
+    margin-bottom: 50px;
+}
+.contact-info h3{
+    font-family: futura-pt-demi;
+    color: #513F8D;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.contact-info p{
+    font-family: futura-pt-light;
+    color #454545;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 37px;
+}
+.contact-info .home{
+    color: #3D2F7F;
+    border-bottom: .5px solid #3D2F7F;
+}
+.contact-info .home:hover{
+    color: #3D2F7F;
+    text-decoration: none;
+    opacity: .5;
+}
+.title{
+    font-family: futura-pt-light;
+    color: #454545;
+    font-size: 20px;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+}
+.name-input{
+    width: 100%;
+    height: 42px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-bottom: 20px;
+}
+.caption{
+    font-family: futura-pt-light;
+    color: #454545;
+    font-size: 12px;
+    margin-bottom: 23px;
+    letter-spacing: 1px;
+}
+.email-input{
+    width: 100%;
+    height: 42px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-bottom: 24px;
+}
+.option{
+    font-family: futura-pt-light;
+    color: #454545;
+    font-size: 12px;
+    margin: 6px 0px 4px;
+    letter-spacing: 1px;
+}
+.register{
+    width: 120px;
+    height: 42px;
+    cursor: pointer;
+    background-color: #36195D;
+    border-radius: 80px;
+    border: none;
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+.register-link{
+    font-weight: bold;
+    color: #D0CBDC;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 6px;
+}
+.register-link:hover{
+    text-decoration: none;
+    opacity: .6;
+    color: #D0CBDC;
+}
+/* End main styles */
+
+/* Start footer styles */
+.footer{
+    background-color: #513f8d;
+    padding: 12px 71px;
+}
+.footer1, .footer2{
+    padding: 17px;
+}
+.left-side, .copyrights{
+    font-family: futura-pt-light;
+    color: #D1D1D1;
+    font-size: 20px;
+    letter-spacing: 2px; 
+}
+/* End footer styles */
+
+.inputLabel {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+.d-flex{
+    display: flex!important;
+    justify-content: space-between;
+}

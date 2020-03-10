@@ -1,0 +1,367 @@
+/* Start of CONSTANTS */
+*{
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+@font-face{
+    font-family: futura-pt;
+    src: url(/fonts/FuturaPTBook.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-cond-medium;
+    src: url(/fonts/FuturaPTCondMedium.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-demi;
+    src: url(/fonts/FuturaPTDemi.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-bold;
+    src: url(/fonts/FuturaPTCondBold.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-cond-book;
+    src: url(/fonts/FuturaPTCondBook.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-cond-bold;
+    src: url(/fonts/FuturaPTCondBold.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-extra-bold;
+    src: url(/fonts/FuturaPTExtraBold.otf);
+    font-weight: bolder;
+}
+@font-face{
+    font-family: futura-pt-light;
+    src: url(/fonts/FuturaPTLight.otf);
+    font-weight: 400;
+}
+/* These are my most important colors:
+    #454545
+    rgb(208, 203, 220)
+    #FFFFFF
+    #rgb(81, 63, 141)
+    #333
+    rgb(54, 25, 93)
+    #D1D1D1
+    
+*/
+/* End of CONSTANTS */
+
+/* Start the header styles */
+.header{
+    background-color: black!important;
+    padding: .5% 8% .5% 3.5%;
+}
+.header-logo{
+    text-align: center;
+    width: 145px;
+    height: 5%;
+}
+.navbar-logo-img{
+    width: 128px;
+    height: 47px;
+}
+.nav-link{
+    font-family: futura-pt-light;
+    font-size: 14px;
+    color: #F7F7F7;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: #F7F7F7;
+}
+.navbar ul:hover > li { 
+    opacity: 0.5;
+  }
+  
+.navbar ul li:hover {
+    opacity: 1;
+  }
+/* End the header styles */
+
+/* Start slide styles */
+
+.promotion{
+    width: 100%;
+}
+.myVideo{
+    width: 100%;
+    /* height: 300px; */
+    background-size: cover;
+}
+.slide-paragraph{
+    position: absolute;
+    padding: 0px 257px;
+    top: 200px;
+    text-align: left;
+    margin: 0px 148px 0px 168px;
+}
+.slide-h3{
+    font-family: futura-pt-extra-bold;
+    text-transform: uppercase;
+    color: #D0CBDC;
+    margin-bottom: 17px;
+    font-size: 17px;
+    letter-spacing: 3px; 
+}
+.slide-h2{
+    font-family: futura-pt-demi;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+    font-size: 29px;
+}
+.slide i{
+    color: white;
+}
+/* End slide styles */
+/* Start state projects styles */
+.state-projects{
+    background-color: rgb(237, 237, 242);  
+    padding-top: 85px; 
+}
+.project-h3{
+    margin-bottom: 17px;
+}
+.project-h3-link{
+    font-family: futura-pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(81, 63, 141);
+    border-bottom: .5px solid #0e0b0b6c;
+    letter-spacing: 5px;
+}
+.project-h3-link:hover{
+    text-decoration: none;
+    color: rgb(81, 63, 141);
+}
+.project-h1{
+    font-family: futura-pt-light;
+    font-weight: bold;
+    margin-bottom: 35px;
+    font-size: 56px;
+    color: #333333;
+}
+.project1-img{
+    width: 170px;
+    height: 230px;
+}
+.project-paragraph{
+    font-family: futura-pt-light;
+    color: rgb(69, 69, 69);
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.case-study{
+    width: 230px;
+    height: 71px;
+    cursor: pointer;
+    background-color: rgb(29, 27, 34);
+    border-radius: 80px;
+    border: none;
+    margin-bottom: 30px;
+}
+.case-study-link{
+    font-weight: bold;
+    color: #D0CBDC;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.case-study-link:hover{
+    text-decoration: none;
+    opacity: .6;
+    color: #D0CBDC;
+}
+.lines, .lines2{
+    width: 100%;
+}
+.lines-empty1{
+    width: 80px;
+    height: 1px;
+}
+.lines-empty2{
+    width: 20px;
+    height: 1px;
+}
+hr{
+    margin: 0;
+}
+.partners-collection{
+    margin-bottom: 50px;
+    padding-top: 40px;
+    margin: auto;
+}
+.partners-link{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px; 
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt-demi;    
+}
+.partners-link:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.partners-img{
+    width: 212px;
+    height: 159px;
+}
+.partners-img2{
+    width: 239px;
+    height: 67px;
+    margin-top: 40px;
+}
+.lines2{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+/* End state projects to the second half lines styles */
+
+/* Start previous works styles */
+.previous-works{
+    background-color: rgb(237, 237, 242);
+}
+.authored-articles{
+    padding: 0!important;
+}
+.authored-articles h3{
+    font-family: futura-pt-demi;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px;
+    color: #513f8d;
+}
+.collection1, .collection2, .collection3, .collection4{
+    padding-top: 17px;
+}
+.article1{
+    margin-right: 33px;
+}
+.article-image{
+    width: 100%;
+    height: 120px;
+}
+.label{
+    margin: 15px 0px 10px 0px;
+}
+.article-label{
+    font-family: futura-pt-light;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.article-label:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.heading{
+    margin-bottom: 10px;
+}
+.heading-link{
+    font-family: futura-pt;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.heading-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.article-paragraph{
+    font-family: futura-pt-light;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.chapters-from-report h3{
+    font-family: futura-pt-demi;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px;
+    color: #513f8d;
+}
+.media{
+    margin-bottom: 35px;
+}
+.chapter-image{
+    width: 145px;
+    height: 145px;
+}
+.label2{
+    margin-bottom: 10px;
+}
+.chapter-label{
+    font-family: futura-pt-light;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.chapter-label:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.heading2{
+    margin-bottom: 10px;
+}
+.heading2-link{
+    font-family: futura-pt;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.heading2-link:hover{
+    text-decoration: none;
+    color: #454545;
+}
+.article-paragraph{
+    font-family: futura-pt-light;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+/* End previous works styles */
+
+/* Start footer styles */
+.footer{
+    background-color: #513f8d;
+}
+.footer1, .footer2{
+    padding: 17px;
+}
+.left-side, .copyrights{
+    font-family: futura-pt-light;
+    color: #D1D1D1;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+/* End footer styles */

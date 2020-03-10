@@ -1,0 +1,697 @@
+/* start constants */
+*{
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+/* This is an important color: #0e0b0b6c */
+@font-face{
+    font-family: futura-pt;
+    src: url(/fonts/FuturaPTBook.otf);
+    font-weight: 400;
+}
+
+/* End constants */
+
+/* Start bullets styles */
+.bullets{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+}
+#bullet1, #bullet2, #bullet3, #bullet4, #bullet5, #bullet6, #bullet7, #bullet8{
+     width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* End bullets styles */
+
+
+
+
+
+
+
+
+
+
+/* Start navbar styles */
+.navbar{
+    background-color: black!important;
+    height: 75px;
+   
+}
+.header-logo{
+    width: 146px;
+    height: 50px;
+    
+}
+.navbar-nav .page{
+    display: inline-block!important;
+    /* float: right!important; */
+}
+.nav-link{
+    color: #f7f7f7!important;
+    display: inline-block!important;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: futura-pt;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+ .navbar ul:hover > li { 
+    opacity: 0.5;
+  }
+  
+.navbar ul li:hover {
+    opacity: 1;
+  }
+
+/* End navbar styles */
+
+/* Start slide styles */
+.main-header{
+    background-image: url(../images/home-images/slide-image.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 410px;
+}
+.slide-sentence{
+    position: relative;
+    font-family: futura-pt;
+    color: #f7f7f7;
+    width: 630px; 
+    height: 100px; 
+    font-size: 29px!important;
+    top: 120px;
+    font-weight: 300;
+}
+.slide-sentence h2{
+    width: 540px;
+    height: 90px;
+    margin-bottom: 0;
+    padding-right: 70px;
+    font-weight: 700;
+    /* letter-spacing: .8; */
+}
+.main-header i{
+    position: relative;
+    top: 170px;
+    width: 50px;
+    height: 20px;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+.main-header i:hover{
+    /* transition: transform .5s ease-in-out; */
+}
+.main-header i:active{
+     
+}
+
+/* End slide styles */
+
+/* Start recent articles styles */
+.recent-articles{
+    background-color: rgb(237, 237, 242);
+}
+.links{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.link1-1, .link2{
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt;
+    
+}
+.link1-1{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px; 
+}
+.link2{
+    font-size: 20px;
+}
+.link1-1:hover, .link2:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.article1-1 .image1-1, .article1-2 .image1-2, .article1-3 .image1-3{
+    width: 260px;
+    height: 110px;
+}
+.label1{
+    font-family: futura-pt;
+    color: #0e0b0b6c;
+    font-size: 13px;
+    margin: 20px 0px 12px 0px; 
+    opacity: .6;
+}
+.heading1-1, .heading1-2, .heading1-3{
+    font-family: futura-pt;
+    font-weight: bold;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.paragraph1-1, .paragraph1-2, .paragraph1-3{
+    font-family: futura-pt;
+    color: #0e0b0b6c;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.article1-1 a, .article1-2 a, .article1-3 a{
+    font-family: futura-pt;
+    color: #513ea8;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.sub-collection2{
+    padding-left: 30px;
+}
+.article2-1, .article2-2, .article2-3, .article2-4{
+    padding-bottom: 35px;
+}
+.media-img{
+    width: 55px;
+    height: 55px;
+}
+.heading2-1, .heading2-2, .heading2-3, .heading2-4{
+    font-family: futura-pt;
+    font-weight: bold;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.label2{
+    font-family: futura-pt;
+    color: #0e0b0b6c;
+    font-size: 13px;
+    opacity: .6;
+}
+.articles-collections2{
+    padding-bottom: 150px;
+}
+.image3{
+    width: 160px;
+    height: 80px;
+    margin-bottom: 20px; 
+}
+.heading3{
+    font-family: futura-pt;
+    font-weight: bold;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.label3, .label4{
+    font-family: futura-pt;
+    color: #0e0b0b6c;
+    font-size: 13px;
+    opacity: .6;
+}
+.sub-collection4{
+    padding-left: 60px;
+}
+.heading4-1, .heading4-2{
+    font-family: futura-pt;
+    font-weight: bold;
+    color: #454545;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 0!important;
+}
+.blockchain{
+    background-color: #210d64f1;
+}
+.sub-blockchain{
+    /* padding: 59px 71px; */
+}
+.blockchain-empty{
+    width: 200px;
+    height: 100px;
+}
+.blockchain-img{
+    width: 230px;
+    height: 300px;
+}
+.blockchain-h3{
+    margin-bottom: 17px;
+}
+.blockchain-h3-link{
+    font-family: futura-pt;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #D0CBDC;
+    font-size: 17px;
+    letter-spacing: 3px;
+    border-bottom: .25px solid #D0CBDC;
+    padding-bottom: 3px;
+    margin-bottom: 17px;
+}
+.blockchain-h3-link:hover, .blockchain-h1-link:hover{
+    text-decoration: none;
+    opacity: .5;
+    color: #D0CBDC;
+}
+.blockchain-h1{
+    margin-bottom: 37px;
+}
+.blockchain-h1-link{
+    font-family: futura-pt;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #D0CBDC;
+    font-size: 56px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #D0CBDC;
+}
+.blockchain-h2{
+    font-family: futura-pt;
+    font-weight: bolder;
+    color: #D0CBDC;
+    font-size: 29px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.blockchain-paragraph{
+    font-family: futura-pt;
+    color: #D0CBDC;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.blockchain-download{
+    width: 225px;
+    height: 71px;
+    background-color: rgb(29, 27, 34);
+    border-radius: 80px;
+    border: none;
+    margin-bottom: 30px;
+}
+.blockchain-download-link{
+    font-weight: bold;
+    color: #D0CBDC;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.blockchain-download-link:hover{
+    text-decoration: none;
+    opacity: .5;
+    color: #D0CBDC;
+}
+ /* End recent articles styles */
+
+ /* Start latest reports styles */
+ .latest-reports{
+    background-color: rgb(237, 237, 242);
+}
+ .links{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.link1-2, .link2{
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt;
+    
+}
+.link1-2{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px; 
+    border-bottom: none!important;
+}
+.link2{
+    font-size: 20px;
+}
+.link1-2:hover, .link2:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.report-img{
+    width: 180px;
+    height: 216px;
+}
+.media-body2{
+    margin-bottom: 17px;
+}
+.report-h3{
+    margin-bottom: 20px;
+}
+.report-h3-link{
+    font-family: futura-pt;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #513f8d; 
+}
+.report-h3-link:hover{
+    text-decoration: none;
+    color: rgba(158, 156, 161, 0.808);
+    opacity: .5;
+}
+.report-paragraph{
+    font-family: futura-pt;
+    color: #0e0b0b6c;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.report1-download, .report2-download, .report3-download{
+    width: 177px;
+    height: 44px;
+    margin-top: 17px;
+    cursor: pointer;
+    background-color: #513f8d;
+    border-radius: 80px;
+    border: none;
+}
+
+.report1-download-link, .report2-download-link, .report3-download-link{
+    font-weight: bold;
+    color: #D0CBDC;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.report1-download:hover, .report2-download:hover, .report3-download:hover{
+    opacity: .5;
+}
+.report1-download-link:hover, .report2-download-link:hover, .report3-download-link:hover{
+    text-decoration: none;
+    color: #D0CBDC;
+}
+.lines{
+    width: 100%;
+}
+.lines-empty1{
+    width: 80px;
+    height: 1px;
+}
+.lines-empty2{
+    width: 20px;
+    height: 1px;
+}
+.heading-link1-3{
+    margin-bottom: 50px;
+    margin: auto;
+}
+.link1-3{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px; 
+    border-bottom: none!important;
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt;
+    
+}
+.link1-3:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.partners-img{
+    width: 212px;
+    height: 159px;
+}
+.partners-img2{
+    width: 239px;
+    height: 67px;
+    margin-top: 40px;
+}
+ /* End latest reports styles */
+
+ /* Start projects styles */
+ .featured-projects{
+     background-color: #210d64f1;
+ }
+ .project-empty{
+    width: 100px;
+    height: 50px;
+}
+.project1, .project2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.project-h3{
+    margin-bottom: 15px;
+}
+.project-h3-link{
+    font-family: futura-pt;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #D0CBDC;
+    font-size: 17px;
+    letter-spacing: 3px;
+    border-bottom: .25px solid #D0CBDC;
+    padding-bottom: 2px;
+    margin-bottom: 17px;
+}
+.project-h3-link:hover{
+    text-decoration: none;
+    opacity: .5;
+    color: #D0CBDC;
+}
+.project-h2{
+    font-family: futura-pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 29px;
+    letter-spacing: 1px;
+    padding-bottom: 35px;
+}
+.project1-img{
+    width: 172px;
+    height: 260px;
+    margin-bottom: 40px;
+}
+.project2-img{
+    width: 207px;
+    height: 197px;
+}
+.project-paragraph{
+    font-family: futura-pt;
+    color: #EDEDF2;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.project-download{
+    width: 230px;
+    height: 71px;
+    cursor: pointer;
+    background-color: rgb(29, 27, 34);
+    border-radius: 80px;
+    border: none;
+    margin-bottom: 30px;
+}
+.project-download-link{
+    font-weight: bold;
+    color: #D0CBDC;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.project-download:hover{
+    text-decoration: none;
+    opacity: .6;
+    color: #D0CBDC;
+}
+.project-download-link:hover{
+    text-decoration: none;
+    opacity: .6;
+    color: #D0CBDC;
+}
+ /* End projects styles */
+
+ /* Start report excerpts styles */
+ .report-excerpts{
+    background-color:rgb(237, 237, 242);
+ }
+ .link1-4, .link2{
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt;
+    
+}
+.link1-4{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px; 
+    border-bottom: none!important;
+}
+.link2{
+    font-size: 20px;
+}
+.link1-4:hover, .link2:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.excerpts-collection1{
+    margin-bottom: 40px;
+}
+.excerpts-collection2{
+    margin-bottom: 60px;
+}
+.ex-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ex-image-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ex-title{
+    font-family: futura-pt;
+    font-weight: bold;
+    color: #454545;
+    font-size: 20px;
+    margin-bottom: 3px; 
+}
+.ex-label{
+    font-family: futura-pt;
+    color: #0e0b0b6c;
+    font-size: 13px;
+}
+.link1-5, .link2{
+    border-bottom: 1px solid rgba(81,63,141,.3);
+    color: #513f8d; 
+    font-family: futura-pt;
+    
+}
+.link1-5{
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-emphasis: .5em;
+    font-size: 17px; 
+    font-weight: 700; 
+    letter-spacing: 7px; 
+    border-bottom: none!important;
+}
+.link2{
+    font-size: 20px;
+}
+.link1-5:hover, .link2:hover{
+    text-decoration: none;
+    color: #513f8d;
+}
+.event{
+    flex: 1;
+    margin-right: 50px;
+}
+.event-date{
+    margin-bottom: 10px;
+}
+.event-date-link{
+    font-family: futura-pt;
+    font-size: 13px;
+    color: #0e0b0b6c;
+    
+}
+.event-title{
+    margin-bottom: 10px;
+}
+.event-title-link{
+    font-family: futura-pt;
+    font-size: 20px;
+    color: #454545;
+}
+.event-paragraph{
+    font-family: futura-pt;
+    width: 100%;
+    font-size: 18px;
+    color: #454545;
+    margin-bottom: 10px;
+}
+.event-date-link:hover, .event-title-link:hover{
+    text-decoration: none;
+    color: #454545;
+    
+}
+.event-date-link:hover{
+    cursor: auto;
+    opacity: .5;
+}
+.event-title-link:hover{
+    cursor: pointer;
+}
+.event .read-more{
+    font-family: futura-pt;
+    color: #513ea8;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.event .read-more:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+ /* End report excerpts styles  */
+
+ /* Start footer styles */
+.footer{
+    background-color: #210d64f1;
+    width: 100%;
+    height: 93px;
+}
+ .city, .copyrights{
+    font-family: futura-pt;
+    color: #D1D1D1;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+ /* End footer styles */
+ .ex1, .ex2 {
+    flex: 1;
+    margin-right: 10px;
+}
+.ex1:last-child{
+    margin-right: 0;
+}
+#icon {
+    transition: .5s;
+}
+.hidden {
+    margin-top: 30px;
+    opacity: 0;
+}
