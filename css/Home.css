@@ -11,6 +11,41 @@
     src: url(/fonts/FuturaPTBook.otf);
     font-weight: 400;
 }
+@font-face{
+    font-family: futura-pt-cond-medium;
+    src: url(/fonts/FuturaPTCondMedium.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-demi;
+    src: url(/fonts/FuturaPTDemi.otf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: futura-pt-bold;
+    src: url(/fonts/FuturaPTCondBold.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-cond-book;
+    src: url(/fonts/FuturaPTCondBook.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-cond-bold;
+    src: url(/fonts/FuturaPTCondBold.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: futura-pt-extra-bold;
+    src: url(/fonts/FuturaPTExtraBold.otf);
+    font-weight: bolder;
+}
+@font-face{
+    font-family: futura-pt-light;
+    src: url(/fonts/FuturaPTLight.otf);
+    font-weight: 400;
+}
 
 /* End constants */
 
@@ -43,32 +78,43 @@ html {
 
 
 /* Start navbar styles */
-.navbar{
+.header{
     background-color: black!important;
-    height: 75px;
-   
+    padding: 1% 8% .5% 3.5%;
+    /* height: 85px; */
 }
 .header-logo{
-    width: 146px;
-    height: 50px;
-    
+    text-align: center;
+    width: 145px;
+    height: 5%;
+    margin-left: 47px;
+    margin-top: 13px;
 }
-.navbar-nav .page{
-    display: inline-block!important;
-    /* float: right!important; */
+.navbar-logo-img{
+    width: 128px;
+    height: 47px;
+}
+.page{
+    /* margin-right: 10px; */
 }
 .nav-link{
-    color: #f7f7f7!important;
-    display: inline-block!important;
-    cursor: pointer;
+    font-family: futura-pt-light;
+    font-size: 14px;
+    color: #F7F7F7;
     text-transform: uppercase;
-    font-family: futura-pt;
-    font-weight: 400;
-    font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     cursor: pointer;
+    font-weight: 800;
+    margin-right: 1px;
 }
- .navbar ul:hover > li { 
+ul {
+    margin-top: 10px;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: #F7F7F7;
+}
+.navbar ul:hover > li { 
     opacity: 0.5;
   }
   
@@ -91,14 +137,14 @@ html {
     position: relative;
     font-family: futura-pt;
     color: #f7f7f7;
-    width: 630px; 
+    width: 475px; 
     height: 100px; 
     font-size: 29px!important;
     top: 120px;
     font-weight: 300;
 }
 .slide-sentence h2{
-    width: 540px;
+    width: 475px;
     height: 90px;
     margin-bottom: 0;
     padding-right: 70px;
