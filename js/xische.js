@@ -8,6 +8,7 @@ function showParagraph(part) {
 
 function hideParagraph(part) {
     document.getElementById(part).style.display = "none";
+    document.getElementById("main-slide").style.backgroundColor = "grey";
 }
 /* End slide js code */
 
