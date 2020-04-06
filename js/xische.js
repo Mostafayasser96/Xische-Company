@@ -3,6 +3,7 @@
 /* start slide js code */
 function showParagraph(part) {
     document.getElementById(part).style.display = "block";
+    document.getElementById("main-slide").style.backgroundColor = "#1d2b64";
 }
 
 function hideParagraph(part) {
